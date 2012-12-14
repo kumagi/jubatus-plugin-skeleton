@@ -1,4 +1,4 @@
-plugin_name = 'EXAMPLE_splitter'
+plugin_names = ['EXAMPLE_splitter']
 
 def options(opt):
   pass
@@ -7,11 +7,12 @@ def configure(conf):
   pass
 
 def build(bld):
-  bld.shlib(
-    source = plugin_name + '.cpp',
-    target = plugin_name,
-    use='JUBACONVERTER',
-    )
+  for plugin_name in plugin_names:
+    bld.shlib(
+      source = plugin_name + '.cpp',
+      target = plugin_name,
+      use='JUBACONVERTER',
+      )
 
   bld.program(
     source = 'client.cpp',
