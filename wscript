@@ -12,8 +12,8 @@ def configure(conf):
 
   # for clients
   conf.check_cxx(lib = 'msgpack')
-  conf.check_cfg(package = 'pficommon', args = '--cflags --libs')
-  conf.check_cxx(header_name = 'pficommon/network/mprpc.h')
+  conf.check_cxx(lib = 'jubatus_mpio')
+  conf.check_cxx(lib = 'jubatus_msgpack-rpc')
 
   conf.recurse(subdirs)
 

@@ -17,7 +17,7 @@ def build(bld):
   bld.program(
     source = 'client.cpp',
     target = 'client',
-    use='PFICOMMON MSGPACK',
+    use=['MSGPACK', 'JUBATUS_MPIO', 'JUBATUS_MSGPACK-RPC'],
     )
 
   bld(
