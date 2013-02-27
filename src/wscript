@@ -22,7 +22,7 @@ def build(bld):
 
   bld(
     rule = 'cp ${SRC} ${TGT}',
-    source = 'converter_config.json',
+    source = 'server_config.json',
     target = bld.path.get_bld(),
     )
 
