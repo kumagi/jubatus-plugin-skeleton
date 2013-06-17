@@ -34,7 +34,7 @@ bool EXAMPLE_splitter::find_next(const std::string& text,
 }
 
 extern "C" {
-  jubatus::fv_converter::word_splitter* create(const std::map<std::string, std::string>& params) {
+  jubatus::core::fv_converter::word_splitter* create(const std::map<std::string, std::string>& params) {
     return new EXAMPLE_splitter();
   }
 }

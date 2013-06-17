@@ -1,6 +1,6 @@
-#include <jubatus/plugin.hpp>
+#include <jubatus/core/plugin.hpp>
 
-class EXAMPLE_splitter : public jubatus::fv_converter::word_splitter {
+class EXAMPLE_splitter : public jubatus::core::fv_converter::word_splitter {
  public:
   void split(const std::string& string,
              std::vector<std::pair<size_t, size_t> >& ret_boundaries) const;
