@@ -1,5 +1,5 @@
 /*
- * Skelton of Jubatus fv_converter Plug-in
+ * Skeleton of Jubatus fv_converter Plug-in
  *  ... based on the `extract_ascii` written by Yuya Unno
  *      http://blog.jubat.us/2012/07/blog-post_18.html
  */
