@@ -1,5 +1,5 @@
 /*
- * Skelton of Jubatus fv_converter Plug-in
+ * Skeleton of Jubatus fv_converter Plug-in
  *  ... based on the `extract_ascii` written by Yuya Unno
  *      http://blog.jubat.us/2012/07/blog-post_18.html
  */
@@ -34,7 +34,7 @@ bool EXAMPLE_splitter::find_next(const std::string& text,
 }
 
 extern "C" {
-  jubatus::fv_converter::word_splitter* create(const std::map<std::string, std::string>& params) {
+  jubatus::core::fv_converter::word_splitter* create(const std::map<std::string, std::string>& params) {
     return new EXAMPLE_splitter();
   }
 }
