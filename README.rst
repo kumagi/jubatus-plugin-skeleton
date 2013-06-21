@@ -1,5 +1,5 @@
-Skelton of Jubatus fv_converter Plug-in
-=======================================
+Skeleton of Jubatus fv_converter Plug-in
+=========================================
 
 Based on the ``extract_ascii`` plug-in written by Yuya Unno
 (See the `official blog article <http://blog.jubat.us/2012/07/blog-post_18.html>`_ for details).
@@ -7,7 +7,7 @@ Based on the ``extract_ascii`` plug-in written by Yuya Unno
 Requirements
 ------------
 
-* Jubatus 0.4.2+ (development headers required)
+* Jubatus 0.4.4+ (development headers required)
 
 Usage
 -----
