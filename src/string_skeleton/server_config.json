@@ -1,0 +1,30 @@
+{
+
+"method": "AROW",
+
+"parameter":
+{
+    "regularization_weight" : 1.0
+},
+
+"converter":
+{
+  "string_filter_types": {},
+  "string_filter_rules": [],
+  "num_filter_types": {},
+  "num_filter_rules": [],
+  "string_types": {
+    "EXAMPLE": {
+      "method": "dynamic",
+      "path": "/home/udagawa/github/TkrUdagawa/jubatus-plugin-skeleton/build/src",
+      "function": "create"
+    }
+  },
+  "string_rules": [
+    {"key" : "*", "type" : "EXAMPLE", "sample_weight": "bin", "global_weight": "bin"}
+  ],
+  "num_types": {},
+  "num_rules": [{"key" : "*", "type" : "num"}]
+}
+
+}
